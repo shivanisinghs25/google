@@ -1,0 +1,25 @@
+
+/* icons */
+.input-icons {   
+    i{
+        /* left side icon */
+        position: absolute;          
+        padding: .8rem; 
+        color: lightgrey; 
+        min-width: 50px; 
+        text-align: center; 
+    }
+
+    .btn2{
+        i{
+            /* right side icons */
+            position: absolute;
+            right: 0;
+            padding: .8rem; 
+            color: rgb(29,100,253);
+            top: 52% !important;    
+        }
+    }
+    
+       
+} 

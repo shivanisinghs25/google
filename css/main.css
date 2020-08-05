@@ -1,0 +1,158 @@
+body {
+  background-color: white;
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, sans-serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* links at upper right */
+header nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+header nav ul {
+  float: right;
+}
+
+header nav ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+header nav ul a {
+  text-decoration: none;
+  padding: .1rem;
+  padding-right: .5rem;
+  font-size: 1rem;
+  color: #000;
+}
+
+header nav ul a:hover {
+  text-decoration: underline;
+}
+
+/* search bar*/
+section .container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  /* logo image*/
+  /* icons */
+  /* buttons */
+}
+
+section .container .logo img {
+  width: 272px;
+  height: 92px;
+  margin: 0 auto;
+  display: block;
+}
+
+section .container .input-icons {
+  margin-top: 10px;
+}
+
+section .container .input-icons i {
+  position: absolute;
+  padding: .8rem;
+  color: lightgrey;
+  min-width: 50px;
+  text-align: center;
+}
+
+section .container .input-icons .btn2 i {
+  position: absolute;
+  right: 0;
+  padding: .8rem;
+  color: #1d64fd;
+  top: 48%;
+}
+
+section .container .input-icons input {
+  width: 450px;
+  height: 40px;
+  display: block;
+  padding: .8rem 2.5rem;
+  border-radius: 25px;
+  border: 1px solid #f1f1f1;
+  outline: none;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 700px) {
+  section .container .input-icons input {
+    width: 300px;
+  }
+}
+
+section .container .buttons {
+  text-align: center;
+}
+
+section .container .buttons input {
+  display: inline-block;
+  margin-top: 7%;
+  padding: .7rem;
+  background-color: #f1f1f1;
+  color: #5f6368;
+  border: none;
+  border-radius: 5px;
+  width: 130px;
+}
+
+section .container .buttons input:hover {
+  border: 1px solid #c2c1c1;
+}
+
+/* footer links*/
+footer {
+  background-color: #f1f1f1;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* left links*/
+  /* right links*/
+}
+
+footer ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+footer ul li a {
+  text-decoration: none;
+  padding: .1rem;
+  font-size: 14px;
+  color: #5f6368;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 300px) {
+  footer .footer-left {
+    float: left;
+    padding-left: 10px;
+  }
+}
+
+@media only screen and (min-width: 300px) {
+  footer .footer-right {
+    float: right;
+    padding-right: 10px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

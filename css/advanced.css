@@ -1,0 +1,185 @@
+/* links at upper right */
+/* nav bar */
+header nav {
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #f1f1f1;
+  padding: 8px;
+}
+
+header nav img {
+  width: 92px;
+  height: 33px;
+  position: absolute;
+  left: 2%;
+  top: 25%;
+}
+
+header nav ul {
+  float: right;
+}
+
+header nav ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+header nav ul a {
+  text-decoration: none;
+  padding: .1rem;
+  padding-right: .5rem;
+  font-size: 1rem;
+  color: #000;
+}
+
+header nav ul a:hover {
+  text-decoration: underline;
+}
+
+/* main heading */
+.heading {
+  position: absolute;
+  top: 10%;
+  border-bottom: 1px solid #f1f1f1;
+  width: 100%;
+}
+
+.heading p {
+  color: #D93025;
+  font-size: 20px;
+  padding-left: 40px;
+}
+
+/* form section*/
+section .box {
+  position: absolute;
+  top: 20%;
+  font-size: 13px;
+  border-bottom: 1px solid #f1f1f1;
+  width: 96%;
+  max-width: 1140px;
+  min-width: 200px;
+  margin: 40px 2% 0 45px;
+  /* form */
+  /* button */
+}
+
+section .box .box-value {
+  clear: both;
+  width: 100%;
+  /* form contains*/
+}
+
+section .box .box-value .box-item {
+  padding-bottom: 3px;
+  /* heading1*/
+  /* heading2*/
+  /* form label*/
+  /* form input */
+  /* form span */
+}
+
+section .box .box-value .box-item .head1 {
+  font-size: 16px;
+  color: #333333;
+  padding-bottom: 5px;
+}
+
+section .box .box-value .box-item .head2 {
+  width: 33%;
+  position: absolute;
+  left: 67%;
+  top: 0%;
+  font-weight: 700;
+  color: #777;
+  /* To hide */
+}
+
+@media (max-width: 1056px) {
+  section .box .box-value .box-item .head2 {
+    display: none !important;
+  }
+}
+
+section .box .box-value .box-item .box-label {
+  display: inline-block;
+  color: #222222;
+  line-height: 16px;
+  vertical-align: middle;
+  width: 16%;
+  min-width: 167px;
+  height: 42px;
+}
+
+section .box .box-value .box-item .box-input {
+  display: inline-block;
+  min-width: 167px;
+  min-height: 41px;
+  vertical-align: middle;
+  width: 50%;
+}
+
+section .box .box-value .box-item .box-input input {
+  width: 100%;
+  border-radius: 1px;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  font-size: 13px;
+  height: 30px;
+  padding: 1px 8px;
+}
+
+section .box .box-value .box-item .box-span {
+  color: #555555;
+  font-size: 11px;
+  width: 32%;
+  min-width: 160px;
+  padding-left: 5px;
+  vertical-align: middle;
+  margin: 0 0 8px 1%;
+  float: right;
+}
+
+section .box .box-value .box-item .box-span .box-inside {
+  height: 30px;
+  display: table-cell;
+  vertical-align: middle;
+  color: #555555;
+}
+
+section .box .box-value .box-item .box-span .box-inside span {
+  color: #666666;
+}
+
+@media (max-width: 1056px) {
+  section .box .box-value .box-item .box-span {
+    display: none !important;
+  }
+}
+
+section .box .buttons {
+  float: right;
+  margin: 10px 0;
+  width: 45%;
+  min-width: 167px;
+  min-height: 41px;
+}
+
+section .box .buttons input {
+  padding: 8px 12px;
+  border-radius: 2px;
+  color: white;
+  border: 1px solid #3079ed;
+  background-color: #4d90fe;
+}
+
+/* footer */
+footer .footer-left {
+  padding-left: 6%;
+}
+
+footer .footer-left li a {
+  padding: 10px;
+}
+/*# sourceMappingURL=advanced.css.map */
